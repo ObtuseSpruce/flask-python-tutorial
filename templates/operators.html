@@ -1,0 +1,22 @@
+{%extends 'index.html'%}
+{%block content%}
+<h1>Learn More About Operators</h1>
+
+
+<form method="POST" action="/operators">
+    <div>
+        <label>Name</label>
+        <input name="name">
+    </div>
+    <div>
+        <label>Description</label>
+        <input name="description">
+    </div>
+    <div>
+        <label>Symbol</label>
+        <input name="symbol">
+    </div>
+    <input type="submit">
+</form>
+
+{%endblock%}
